@@ -24,8 +24,8 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "1494610306"))
 #Port
 PORT = os.environ.get("PORT", "8030")
 #Database
-DB_URI = os.environ.get("DATABASE_URL", "")
-DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://komikdesudb:itsiannnn@komikdb.8ad4v.mongodb.net/?retryWrites=true&w=majority&appName=komikDB")
+DB_NAME = os.environ.get("DATABASE_NAME", "komikDB")
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001296851654"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-0"))
